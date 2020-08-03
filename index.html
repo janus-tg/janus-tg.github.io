@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tuhin</title>
+    <script src="https://kit.fontawesome.com/0ff6bbf947.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styleSheet.css" />
+</head>
+<body>
+    <header>
+
+        <a href="#"><img src="./red_logo.png" id="logo" alt="image of logo" /></a>
+        <br />
+        <ul>
+            <li> <a href="#About">About</a> </li>
+            <li> <a href="#projPage">Projects</a> </li>
+            <li> <a href="#skillPage">Skills</a> </li>
+            <li> <a href="#contactPage">Contact</a> </li>
+        </ul>
+    </header>
+    <div id="first">
+        <div id="firstPage">
+            <p>
+
+                Hi! I am Tuhin.
+                <br />
+                I am a <em><span class="type"></span></em>
+                <!--<img src="./red_pic.png" id="vector" alt="Vector image" />-->
+            </p>
+        </div>
+    </div>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.type', {
+            strings: ['programmer.',
+                'web designer.',
+                'lifelong learner.',
+                'budding chess player.',
+                'history buff.'],
+            typeSpeed: 55,
+            backSpeed: 55,
+            loop: true
+        });
+    </script>
+    <div id="About">
+        <div>
+            <h3 id="aboutHead">About me</h3>
+            <br /><br />
+            <em><span class="who"></span></em>
+            <br />
+            <p id="contentAbout">
+                <a href="https://www.ece.utoronto.ca/" target="_blank">
+                    <img src="./uoft.jpg" alt="Picture of Con Hall" id="aboutImage" />
+                </a>
+                <br />
+                I was born and lived in New Delhi, India for the first 18 years of my life.
+                Now, I am a second year Computer Engineering student at the University of Toronto, St George Campus.
+                Next year onwards, I am looking to specialize in Computer Software and Networks. You can usually find me
+                on campus during the week either trying to catch my lectures, or playing squash in Hart House.
+                <br /><br />
+                I'm a huge fan of simple and minimilistic designs which can be seen on this website. In my free time,
+                I enjoy watching tennis or cricket or watching comedy TV shows :)
+                <br />
+                <button type="submit" id="resume" onclick="window.open('Tuhin Resume.pdf')">Resume</button>
+            </p>
+        </div>
+    </div>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.who', {
+            strings: ['Who am I?',
+                'Qui suis-je?',
+                'Wer bin ich?',
+                'Quis sum?'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+    <img src="https://img.icons8.com/material/24/000000/circled-down-2--v1.png" />
+    <div id="projPage">
+        <h3 id="projHead">Projects</h3>
+        <br /><br />
+        <p id="projContent">
+            Here are some of my projects. I will be adding more soon! Click them to know more.
+        </p>
+
+        <figure>
+
+            <figure>
+                <a href="https://janus-tg.github.io/ML_heart_disease/" target="_blank">
+                    <img src="heart.png" alt="image of heart" class="proj" />
+                </a>
+                <figcaption>
+                    <a href="https://janus-tg.github.io/ML_heart_disease/" target="_blank"> <h4> Heart Disease Predictor</h4> <br /></a>
+                </figcaption>
+                <p class="projDes">
+                    python3 program that analyzes trends between
+                    various risk factors and uses ML models to predict heart disease
+                </p>
+            </figure>
+
+            <figure>
+                <a href="https://janus-tg.github.io/Araneae/" target="_blank">
+                    <img src="spider.jpg" alt="image of spider" class="proj" />
+                </a>
+                <figcaption>
+                    <a href="https://janus-tg.github.io/Araneae/" target="_blank"><h4> Araneae </h4></a> <br />
+                </figcaption>
+                <p class="projDes">
+                    python3 spiderbot which scraps a given Wikipedia URL and
+                    stores the info from the article in a text file.
+                </p>
+            </figure>
+
+            <figure>
+                <a href="https://janus-tg.github.io/Kryptos/" target="_blank">
+                    <img src="cipher.jpg" alt="image of Scytale" class="proj" id="kryptos" />
+                </a>
+                <figcaption>
+                    <a href="https://janus-tg.github.io/Kryptos/" target="_blank"><h4> Kryptos</h4></a> <br />
+                </figcaption>
+                <p class="projDes">
+                    C program which utilizes dynamic memory allocation and sorting
+                    for string manipulation to encrypt or decrypt user-entered text.
+                </p>
+            </figure>
+        </figure>
+    </div>
+    <img src="https://img.icons8.com/material/24/000000/circled-down-2--v1.png" />
+    <div id="skillPage">
+        <h2 id="skillHead">My Skills</h2>
+        <br /><br />
+
+        <div>
+
+            <h3>Languages</h3>
+
+            <button id="C" class="button">C</button>
+            <button id="Cpp" class="button">C++</button>
+            <button id="Python" class="button">Python</button>
+            <button id="htmlcss" class="button">HTML5/CSS3</button>
+            <button id="MATLAB" class="button">MATLAB</button><br />
+
+            <h3>Libraries</h3>
+
+            <button id="NumPy" class="button">NumPy</button>
+            <button id="pandas" class="button">pandas</button>
+            <button id="Matplotlib" class="button">Matplotlib</button>
+            <button id="Seaborn" class="button">Seaborn</button>
+            <button id="scikit-learn" class="button">scikit-learn</button>
+            <button id="Requests" class="button">Requests</button>
+            <button id="BeautifulSoup" class="button">BeautifulSoup</button>
+
+            <h3>Technologies</h3>
+
+            <button id="GitHub" class="button">GitHub</button>
+            <button id="vs" class="button">Visual Studio</button>
+            <button id="pyCharm" class="button">pyCharm</button>
+            <button id="Codelite" class="button">Codelite</button>
+            <button id="msProject" class="button">MS Project</button>
+            <button id="msOffice" class="button">MS Office</button>
+
+        </div>
+    </div>
+    <img src="https://img.icons8.com/material/24/000000/circled-down-2--v1.png" />
+
+    <div id="contactPage">
+        <h2 id="contactHead">Contact</h2>
+        <br /><br />
+        <p id="contactContent">
+            Want to know more about me or talk about some project? Hit me up on any of these platforms, and I'll reply as
+            soon as possible.
+        </p>
+        <div id="contactIcon">
+            <p>
+                <span>
+                    <i class="fas fa-envelope-open-text fa-3x"></i>
+                    <a href="mailto:tuhin.ghose@mail.utoronto.ca">Email</a>
+                </span>
+                <span>
+                    <i class="fab fa-github fa-3x"></i>
+                    <a href="https://github.com/janus-tg">GitHub</a>
+                </span>
+                <span>
+                    <i class="fab fa-linkedin fa-3x"></i>
+                    <a href="https://www.linkedin.com/in/tuhin-g-464b6b125/">LinkedIn</a>
+                </span>
+            </p>
+        </div>
+    </div>
+    <footer>
+        <p>
+            <em><span class="quote"></span></em>
+            <br /><br />
+            Made by Tuhin, with love!
+        </p>
+    </footer>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.quote', {
+            strings: ['"Design is not just what it looks like and feels like. Design is how it works."',
+                '"Success consists of going from failure to failure without loss of enthusiasm."',
+                '"The way to get started is to quit talking and begin doing."'],
+            typeSpeed: 50,
+            backSpeed: 90,
+            loop: true
+        });
+    </script>
+</body>
+</html>
