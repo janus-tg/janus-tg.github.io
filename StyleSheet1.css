@@ -286,3 +286,128 @@ footer {
     footer p {
         display: inline;
     }
+
+@media screen and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    * {
+        font-size: 1rem;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-bottom: 0.7%;
+            font-size: 1rem;
+        }
+
+    #logo{
+        max-width: 7%;
+        max-height: 7%;
+    }
+    #vector {
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #firstPage {
+        padding: 3% 0% 2.5% 0%;
+    }
+
+        #firstPage p, .type {
+            font-size: 1.3rem;
+        }
+
+    #first {
+        text-align: center;
+        background: white;
+    }
+
+    #About {
+        padding: 5% 2% 0 2%;
+        background: white;
+    }
+
+    #aboutHead, #projHead, #skillHead, #contactHead {
+        font-size: 1.4rem;
+    }
+
+    #aboutImage {
+        float: left;
+        max-height: 60vh;
+        max-width: 60vw;
+        padding-right: 2%;
+    }
+
+    #contentAbout {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .who {
+        font-size: 1.25rem;
+    }
+
+    #resume {
+       
+        font-size: 1.1rem;
+    }
+
+    #downIcon {
+        margin-top: 5%;
+    }
+
+    #projPage {
+        background: white;
+    }
+
+    #projContent {
+        font-size: 1rem;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    figure {
+        display: block;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .projDes {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    #skillPage {
+        background: white;
+    }
+
+        #skillPage h3 {
+            font-size: 1.25rem;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+
+    .button {
+        font-size: 1.05rem;
+    }
+
+    #contactContent {
+        font-size: 1rem;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    #contactIcon a {
+        font-size: 1rem;
+    }
+
+    .quote {
+        font-size: 0.9rem;
+    }
+}
