@@ -406,7 +406,9 @@ footer {
     #contactIcon a {
         font-size: 1rem;
     }
-
+    #contactIcon p span{
+       display: inline-block;
+    }
     .quote {
         font-size: 0.9rem;
     }
