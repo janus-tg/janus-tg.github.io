@@ -1,0 +1,288 @@
+﻿* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: rgb(235, 72, 35);
+    }
+
+header {
+    background: -webkit-gradient(linear, left bottom, left top, from(#373737), to(#212121));
+    background: -o-linear-gradient(bottom, #373737, #212121);
+    background: linear-gradient(to top, #373737, #212121);
+}
+
+ul {
+    padding: 0;
+}
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0.7%;
+        font-size: 1.55vw;
+    }
+
+#logo {
+    padding-top: 1%;
+    max-height: 5%;
+    max-width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vector {
+    margin: auto;
+    float: right;
+    max-width: 80vw;
+    max-height: 70vh;
+}
+
+#first {
+    background: url("./brown_pic.png");
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#firstPage p {
+    background: white;
+    opacity: 0.9;
+}
+
+#firstPage {
+    padding-left: 2.5%;
+    padding-top: 8%;
+    padding-bottom: 25%;
+    font-size: 3.75vw;
+    display: inline-block;
+}
+
+.type {
+    color: orangered;
+}
+
+#About {
+    padding: 17% 5% 5% 5%;
+    background: url("./about.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    float: right;
+}
+
+#aboutHead {
+    text-align: center;
+    color: darkred;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+#aboutImage {
+    float: left;
+    max-height: 60vh;
+    max-width: 60vw;
+    padding-right: 4%;
+}
+
+#contentAbout {
+    font-size: 1.4vw;
+    color: black;
+}
+
+#resume {
+    background-color: black;
+    color: gold;
+    border-radius: 18%;
+    border: 0.1vw groove gold;
+    font-size: 1.5vw;
+    padding: 0.75% 0.5% 0.75% 0.5%;
+    margin-top: 4%;
+}
+
+    #resume:hover {
+        color: red;
+        background: white;
+        border-color: red;
+    }
+
+.who {
+    font-size: 1.7vw;
+    color: black;
+    float: right;
+    text-align: center;
+}
+
+img:hover {
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(80%);
+}
+
+#projPage {
+    background: url("./project.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+#projHead {
+    text-align: center;
+    color: darkred;
+    font-size: 3vw;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+#projContent {
+    font-size: 1.4vw;
+    color: black;
+    text-align: center;
+}
+
+.proj {
+    max-width: 33vw;
+    max-height: 33vh;
+}
+
+figure {
+    display: inline-block;
+    padding-top: 5vh;
+    padding-left: 6.3vw;
+    padding-bottom: 5vh;
+}
+
+    figure img {
+        padding-bottom: 0.5vw;
+    }
+
+figcaption, figcaption a {
+    color: midnightblue;
+    text-align: center;
+    font-size: 1.5vw;
+    display: block;
+}
+
+#kryptos {
+    max-width: 24vw;
+}
+
+.projDes {
+    max-width: 20vw;
+    text-align: center;
+}
+
+#skillHead {
+    text-align: center;
+    color: darkred;
+    font-size: 3vw;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+#skillPage {
+    text-align: center;
+    background: url("./skill.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    padding-bottom: 3%;
+}
+
+    #skillPage div {
+        display: inline-block;
+    }
+
+    #skillPage h3 {
+        text-align: center;
+        font-size: 1.8vw;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        text-decoration: underline;
+    }
+
+.button {
+    background-color: #001f3f;
+    color: gold;
+    border-radius: 18%;
+    border: 0.1vw groove gold;
+    font-size: 1.5vw;
+    padding: 2.5% 1% 2.5% 1%;
+    min-width: 15%;
+    height: 5%;
+    margin: 1% 1% 1% 1%;
+}
+
+    .button:hover {
+        color: red;
+        background: white;
+        border-color: red;
+    }
+
+#contactHead {
+    text-align: center;
+    color: darkred;
+    font-size: 3vw;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+#contactPage {
+    text-align: center;
+}
+
+#contactContent {
+    font-size: 1.4vw;
+    color: black;
+    text-align: center;
+}
+
+#contactIcon {
+    display: inline;
+}
+
+    #contactIcon p {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+i {
+    margin-right: 2%;
+}
+
+#contactIcon span {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.4vw;
+}
+
+#contactIcon a {
+    color: black;
+    font-size: 1.4vw;
+}
+
+    #contactIcon a:hover {
+        color: red;
+    }
+
+footer {
+    background: -webkit-gradient(linear, left bottom, left top, from(#373737), to(#212121));
+    background: -o-linear-gradient(bottom, #373737, #212121);
+    background: linear-gradient(to top, #373737, #212121);
+    color: white;
+    font-size: 1.4vw;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+    footer p {
+        display: inline;
+    }
