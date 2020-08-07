@@ -167,7 +167,7 @@ figure {
 figcaption, figcaption a {
     color: midnightblue;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1rem;
     display: block;
 }
 
@@ -196,6 +196,11 @@ figcaption, figcaption a {
     padding-bottom: 3%;
 }
 
+#skillPage figure{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
     #skillPage div {
         display: inline-block;
     }
@@ -208,22 +213,9 @@ figcaption, figcaption a {
         text-decoration: underline;
     }
 
-.button {
-    background-color: #001f3f;
-    color: gold;
-    border-radius: 18%;
-    border: 0.1vw groove gold;
-    font-size: 1.5vw;
-    padding: 2.5% 1% 2.5% 1%;
-    min-width: 15%;
-    height: 5%;
-    margin: 1% 1% 1% 1%;
-}
-
-    .button:hover {
-        color: red;
-        background: white;
-        border-color: red;
+    #skillPage img {
+        height: 96px;
+        width: 96px;
     }
 
 #contactHead {
@@ -306,10 +298,11 @@ footer {
             font-size: 1rem;
         }
 
-    #logo{
+    #logo {
         max-width: 7%;
         max-height: 7%;
     }
+
     #vector {
         max-height: 100%;
         max-width: 100%;
@@ -354,7 +347,6 @@ footer {
     }
 
     #resume {
-       
         font-size: 1.1rem;
     }
 
@@ -393,8 +385,14 @@ footer {
             padding-bottom: 5%;
         }
 
-    .button {
-        font-size: 1.05rem;
+    #skillPage figure{
+        display: inline-block;
+    }
+    #skillPage img{
+        height: 72px;
+        width: 72px;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
     #contactContent {
@@ -406,10 +404,12 @@ footer {
     #contactIcon a {
         font-size: 1rem;
     }
-    #contactIcon p span{
-       display: inline-block;
+
+    #contactIcon p span {
+        display: inline-block;
     }
+
     .quote {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
