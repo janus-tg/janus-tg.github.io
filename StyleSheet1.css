@@ -152,6 +152,11 @@ img:hover {
     max-width: 33vw;
     max-height: 33vh;
 }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 figure {
     display: inline-block;
@@ -173,6 +178,11 @@ figcaption, figcaption a {
 
 #kryptos {
     max-width: 24vw;
+}
+
+#blog{
+    text-align: center;
+    justify-content: center;
 }
 
 .projDes {
