@@ -152,16 +152,12 @@ img:hover {
     max-width: 33vw;
     max-height: 33vh;
 }
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 figure {
     display: inline-block;
     padding-top: 5vh;
-    padding-left: 6.3vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
     padding-bottom: 5vh;
 }
 
@@ -178,11 +174,6 @@ figcaption, figcaption a {
 
 #kryptos {
     max-width: 24vw;
-}
-
-#blog{
-    text-align: center;
-    justify-content: center;
 }
 
 .projDes {
@@ -378,6 +369,7 @@ footer {
         display: block;
         text-align: center;
         padding-left: 0;
+        padding-right: 0;
     }
 
     .projDes {
