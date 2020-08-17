@@ -368,8 +368,8 @@ footer {
     figure {
         display: block;
         text-align: center;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
     }
 
     .projDes {
