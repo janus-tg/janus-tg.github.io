@@ -75,7 +75,7 @@ ul {
 
 #About {
     padding: 17% 5% 5% 5%;
-    background: url("./about.jpg");
+    background: url("./project.jpg");
     background-size: cover;
     background-attachment: fixed;
     float: right;
@@ -132,7 +132,7 @@ img:hover {
 }
 #projPage {
     background: url("./project.jpg");
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -193,8 +193,8 @@ figcaption, figcaption a {
 
 #skillPage {
     text-align: center;
-    background: url("./skill.jpg");
-    background-size: contain;
+    background: url("./project.jpg");
+    background-size: cover;
     background-attachment: fixed;
     padding-bottom: 3%;
 }
