@@ -127,7 +127,9 @@ img:hover {
     -webkit-filter: grayscale(80%);
     filter: grayscale(80%);
 }
-
+.container{
+    text-align: center;
+}
 #projPage {
     background: url("./project.jpg");
     background-size: contain;
