@@ -312,11 +312,11 @@ footer {
     }
 
     #firstPage {
-        padding: 3% 0% 2.5% 0%;
+        padding: 25% 0% 25% 0%;
     }
 
         #firstPage p, .type {
-            font-size: 1.3rem;
+            font-size: 2rem;
         }
 
     #first {
